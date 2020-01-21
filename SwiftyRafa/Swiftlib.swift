@@ -20,5 +20,9 @@ public final class Swiftlib {
         return a - b
     }
     
+    public func mult(a: Int, b: Int) -> Int {
+        return a * b
+    }
+    
     
 }

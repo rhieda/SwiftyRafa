@@ -30,6 +30,10 @@ class SwiftlibTests: XCTestCase {
         XCTAssertEqual(sut.sub(a: 1, b: 1), 0)
     }
     
+    func testShouldMultiplyValuesCorrectly() {
+        XCTAssertEqual(sut.mult(a: 3, b: 1), 3)
+    }
+    
     
 
 }
