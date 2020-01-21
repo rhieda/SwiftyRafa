@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E3DDE6BE23D67E0400EE4EEA /* SwiftyRafa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DDE6B423D67E0400EE4EEA /* SwiftyRafa.framework */; };
-		E3DDE6C323D67E0400EE4EEA /* SwiftyRafaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE6C223D67E0400EE4EEA /* SwiftyRafaTests.swift */; };
 		E3DDE6C523D67E0400EE4EEA /* SwiftyRafa.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DDE6B723D67E0400EE4EEA /* SwiftyRafa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3DDE6FB23D67F0B00EE4EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE6FA23D67F0B00EE4EEA /* AppDelegate.swift */; };
 		E3DDE6FD23D67F0B00EE4EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE6FC23D67F0B00EE4EEA /* SceneDelegate.swift */; };
@@ -17,6 +16,8 @@
 		E3DDE70423D67F0D00EE4EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DDE70323D67F0D00EE4EEA /* Assets.xcassets */; };
 		E3DDE70723D67F0D00EE4EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DDE70523D67F0D00EE4EEA /* LaunchScreen.storyboard */; };
 		E3DDE71223D67F0D00EE4EEA /* SwiftyRafaExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE71123D67F0D00EE4EEA /* SwiftyRafaExamplesTests.swift */; };
+		E3DDE71B23D6835F00EE4EEA /* Swiftlib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE71A23D6835F00EE4EEA /* Swiftlib.swift */; };
+		E3DDE71E23D6848B00EE4EEA /* SwiftlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DDE71D23D6848B00EE4EEA /* SwiftlibTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		E3DDE6B723D67E0400EE4EEA /* SwiftyRafa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyRafa.h; sourceTree = "<group>"; };
 		E3DDE6B823D67E0400EE4EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3DDE6BD23D67E0400EE4EEA /* SwiftyRafaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRafaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3DDE6C223D67E0400EE4EEA /* SwiftyRafaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRafaTests.swift; sourceTree = "<group>"; };
 		E3DDE6C423D67E0400EE4EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3DDE6F823D67F0B00EE4EEA /* SwiftyRafaExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRafaExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DDE6FA23D67F0B00EE4EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +54,9 @@
 		E3DDE70D23D67F0D00EE4EEA /* SwiftyRafaExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRafaExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DDE71123D67F0D00EE4EEA /* SwiftyRafaExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRafaExamplesTests.swift; sourceTree = "<group>"; };
 		E3DDE71323D67F0D00EE4EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DDE71A23D6835F00EE4EEA /* Swiftlib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftlib.swift; sourceTree = "<group>"; };
+		E3DDE71C23D6848B00EE4EEA /* SwiftyRafaTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftyRafaTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3DDE71D23D6848B00EE4EEA /* SwiftlibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlibTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 			children = (
 				E3DDE6B723D67E0400EE4EEA /* SwiftyRafa.h */,
 				E3DDE6B823D67E0400EE4EEA /* Info.plist */,
+				E3DDE71A23D6835F00EE4EEA /* Swiftlib.swift */,
 			);
 			path = SwiftyRafa;
 			sourceTree = "<group>";
@@ -123,8 +127,9 @@
 		E3DDE6C123D67E0400EE4EEA /* SwiftyRafaTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3DDE6C223D67E0400EE4EEA /* SwiftyRafaTests.swift */,
 				E3DDE6C423D67E0400EE4EEA /* Info.plist */,
+				E3DDE71D23D6848B00EE4EEA /* SwiftlibTests.swift */,
+				E3DDE71C23D6848B00EE4EEA /* SwiftyRafaTests-Bridging-Header.h */,
 			);
 			path = SwiftyRafaTests;
 			sourceTree = "<group>";
@@ -249,9 +254,11 @@
 				TargetAttributes = {
 					E3DDE6B323D67E0400EE4EEA = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					E3DDE6BC23D67E0400EE4EEA = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					E3DDE6F723D67F0B00EE4EEA = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DDE71B23D6835F00EE4EEA /* Swiftlib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3DDE6C323D67E0400EE4EEA /* SwiftyRafaTests.swift in Sources */,
+				E3DDE71E23D6848B00EE4EEA /* SwiftlibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +517,7 @@
 		E3DDE6C923D67E0400EE4EEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2GEE43J5XT;
@@ -525,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.test.SwiftyRafa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,6 +543,7 @@
 		E3DDE6CA23D67E0400EE4EEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2GEE43J5XT;
@@ -557,6 +568,8 @@
 		E3DDE6CC23D67E0400EE4EEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GEE43J5XT;
 				INFOPLIST_FILE = SwiftyRafaTests/Info.plist;
@@ -567,6 +580,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.test.SwiftyRafaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftyRafaTests/SwiftyRafaTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -575,6 +590,8 @@
 		E3DDE6CD23D67E0400EE4EEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GEE43J5XT;
 				INFOPLIST_FILE = SwiftyRafaTests/Info.plist;
@@ -585,6 +602,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.test.SwiftyRafaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftyRafaTests/SwiftyRafaTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

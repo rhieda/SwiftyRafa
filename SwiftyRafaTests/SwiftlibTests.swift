@@ -1,5 +1,5 @@
 //
-//  SwiftyRafaTests.swift
+//  SwiftlibTests.swift
 //  SwiftyRafaTests
 //
 //  Created by Rafael  Hieda on 1/20/20.
@@ -9,26 +9,27 @@
 import XCTest
 @testable import SwiftyRafa
 
-class SwiftyRafaTests: XCTestCase {
+class SwiftlibTests: XCTestCase {
+    
+    var sut : Swiftlib!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        sut = Swiftlib()
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testShouldSumValuesCorrectly() {
+        XCTAssertEqual(sut.add(a: 1, b: 1), 2)
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testShouldSubtractValuesCorrectly() {
+        XCTAssertEqual(sut.sub(a: 1, b: 1), 0)
     }
+    
+    
 
 }
