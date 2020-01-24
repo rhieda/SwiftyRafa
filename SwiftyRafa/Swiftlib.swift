@@ -11,6 +11,7 @@ import Foundation
 public final class Swiftlib {
     
     let name = "SwiftRafa"
+    let teste = ""
     
     public func add(a: Int, b: Int) -> Int{
         var result = a + b
