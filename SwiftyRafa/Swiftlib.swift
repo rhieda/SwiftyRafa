@@ -14,23 +14,16 @@ public final class Swiftlib {
     let teste = ""
     
     public func add(a: Int, b: Int) -> Int{
-        var result = a + b
-        print(result)
-        return
+        return a + b
     }
     
     public func sub(a: Int, b: Int) -> Int {
-        var result = a - b
-        print(result)
-        return result
+        return a - b
     }
     
     public func mult(a: Int, b: Int) -> Int {
-        var result a * b
-        print(result)
-        return result
+        return a * b
     }
-    
     
     
 }
