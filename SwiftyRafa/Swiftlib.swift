@@ -13,16 +13,23 @@ public final class Swiftlib {
     let name = "SwiftRafa"
     
     public func add(a: Int, b: Int) -> Int{
-        return a + b
+        var result = a + b
+        print(result)
+        return
     }
     
     public func sub(a: Int, b: Int) -> Int {
-        return a - b
+        var result = a - b
+        print(result)
+        return result
     }
     
     public func mult(a: Int, b: Int) -> Int {
-        return a * b
+        var result a * b
+        print(result)
+        return result
     }
+    
     
     
 }
