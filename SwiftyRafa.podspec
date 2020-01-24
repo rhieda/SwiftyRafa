@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftyRafa"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "An extremely simple library for sum and subtraction of Integers."
 
   # This description is used to generate tags and improve search results.
